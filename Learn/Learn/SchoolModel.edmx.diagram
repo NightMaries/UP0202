@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7dfbfc9eee164c82ae0ecef7509aefcc" Name="Diagram1">
+        <EntityTypeShape EntityType="school_21ip213Model.Client" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="school_21ip213Model.ClientService" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="school_21ip213Model.DocumentByService" Width="1.5" PointX="5.25" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="school_21ip213Model.Gender" Width="1.5" PointX="1.5" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="school_21ip213Model.Manufacturer" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="school_21ip213Model.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="school_21ip213Model.ProductSale" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="school_21ip213Model.Service" Width="1.5" PointX="0.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="school_21ip213Model.ServicePhoto" Width="1.5" PointX="3" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="school_21ip213Model.Tag" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <AssociationConnector Association="school_21ip213Model.FK_Client_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="school_21ip213Model.FK_ClientService_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="school_21ip213Model.FK_ClientService_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="school_21ip213Model.FK_DocumentByService_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="school_21ip213Model.FK_ProductSale_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="school_21ip213Model.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="school_21ip213Model.FK_ProductSale_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="school_21ip213Model.FK_ServicePhoto_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="school_21ip213Model.AttachedProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="school_21ip213Model.TagOfClient" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
